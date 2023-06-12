@@ -1,0 +1,56 @@
+.main-page {
+  position: relative;
+
+  &__image-wrapper {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+  &__back-img {
+    width: 100%;
+    display: block;
+  }
+  &__description {
+    position: absolute;
+    font-size: 96px;
+    text-transform: uppercase;
+    bottom: 30px; 
+    left: 50px; 
+    color: white;
+    letter-spacing: -0.03em;
+  }
+
+ /* Медиа-запрос для разрешения 1400px и ниже */
+@media (max-width: 1400px) {
+  .main-page {
+    &__description {
+      font-size: 80px;
+      bottom: 20px;
+      left: 40px;
+    }
+  }
+}
+
+/* Медиа-запрос для разрешения 1000px и ниже */
+@media (max-width: 1000px) {
+  .main-page {
+    &__description {
+      font-size: 64px;
+      bottom: 15px;
+      left: 30px;
+    }
+  }
+}
+
+/* Медиа-запрос для разрешения 700px и ниже */
+@media (max-width: 700px) {
+  .main-page {
+    &__description {
+      font-size: 48px;
+      bottom: 10px;
+      left: 20px;
+    }
+  }
+}
+
+}

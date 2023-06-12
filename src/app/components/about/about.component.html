@@ -1,0 +1,31 @@
+<section class="about">
+  <p class="about__description">
+    {{ image.main_info.selected_text }}
+  </p>
+
+  <div class="gallery-section">
+    <div class="gallery-section__big-img">
+      <img [src]="image.main_info.big_image" alt="" />
+    </div>
+    <div class="gallery-section__small-img-1">
+      <p>
+        We use custom developed optimisation tools to parametrically explore
+        daylighting, thermal comfort, energy, microclimate, life cycle analysis,
+        etc. from the earliest stages of the design process.<br />We is-sue an
+        annual Communication on Progress (COP), which also contains our
+        documentation of Corporate Social Responsibility and Gender Equality
+      </p>
+      <img [src]="image.main_info.small_image2" alt="" />
+    </div>
+    <div class="gallery-section__small-img-2">
+      <p>
+        We look to set new global standards by fostering a design approach which
+        uniquely integrates urban planning, landscape, architecture and design
+        of specific building components.<br /> C.F. Møller is a member of the UN
+        Global Compact, and actively works with the Sustainable Development
+        Goals.
+      </p>
+      <img [src]="image.main_info.small_image1" alt="" />
+    </div>
+  </div>
+</section>
